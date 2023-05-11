@@ -2,6 +2,23 @@
   text-align: center;
 }
 
+img {
+  padding-top: 50px;
+  width: 150px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-around;
+  align-items: baseline;
+  column-gap: 10px;
+}
+
+li {
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +52,5 @@
   to {
     transform: rotate(360deg);
   }
+  
 }
